@@ -47,10 +47,12 @@ while (counterH1Index < 21) {
 
 document.write('<h2>Task 5</h2>');
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write('<ul>');
 for (const listOfItem of listOfItems) {
-    // document.write('<ul><li>' + listOfItem + '</li></ul>');
-    document.write(`<ul><li> ${listOfItem}</li></ul>`);
+    // document.write('<li>' + listOfItem + '</li>');
+    document.write(`<li> ${listOfItem}</li>`);
 }
+document.write('</ul>');
 
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
